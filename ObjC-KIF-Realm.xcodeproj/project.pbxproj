@@ -15,6 +15,8 @@
 		3D25303D1B0DED01005272AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D25303C1B0DED01005272AD /* Images.xcassets */; };
 		3D2530401B0DED01005272AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D25303E1B0DED01005272AD /* LaunchScreen.xib */; };
 		3D25304C1B0DED02005272AD /* ObjC_KIF_RealmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D25304B1B0DED02005272AD /* ObjC_KIF_RealmTests.m */; };
+		9B66FE5C8FD97235FB14F935 /* libPods-ObjC-KIF-RealmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA063C96BB45E0B6BD680BC0 /* libPods-ObjC-KIF-RealmTests.a */; };
+		C45C97EECC4556704880C1B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FFF878F2E2D0B01A7D7092 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D09FFBD98B7B9796AD80D9 /* Pods-ObjC-KIF-RealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-KIF-RealmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjC-KIF-RealmTests/Pods-ObjC-KIF-RealmTests.release.xcconfig"; sourceTree = "<group>"; };
+		0359131ECE63CBB1E90E606A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		083603533225CF3857D876A8 /* Pods-ObjC-KIF-RealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-KIF-RealmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjC-KIF-RealmTests/Pods-ObjC-KIF-RealmTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D2530291B0DED01005272AD /* ObjC-KIF-Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-KIF-Realm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D25302D1B0DED01005272AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D25302E1B0DED01005272AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +48,9 @@
 		3D2530451B0DED02005272AD /* ObjC-KIF-RealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjC-KIF-RealmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D25304A1B0DED02005272AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D25304B1B0DED02005272AD /* ObjC_KIF_RealmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC_KIF_RealmTests.m; sourceTree = "<group>"; };
+		47FFF878F2E2D0B01A7D7092 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B586810B87D6CE9619989A5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AA063C96BB45E0B6BD680BC0 /* libPods-ObjC-KIF-RealmTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjC-KIF-RealmTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45C97EECC4556704880C1B7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,18 +66,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B66FE5C8FD97235FB14F935 /* libPods-ObjC-KIF-RealmTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09C259BD1CDA8FDDAECD9C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47FFF878F2E2D0B01A7D7092 /* libPods.a */,
+				AA063C96BB45E0B6BD680BC0 /* libPods-ObjC-KIF-RealmTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		123663E5D3DAEAAD78A9EAAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0359131ECE63CBB1E90E606A /* Pods.debug.xcconfig */,
+				7B586810B87D6CE9619989A5 /* Pods.release.xcconfig */,
+				083603533225CF3857D876A8 /* Pods-ObjC-KIF-RealmTests.debug.xcconfig */,
+				00D09FFBD98B7B9796AD80D9 /* Pods-ObjC-KIF-RealmTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3D2530201B0DED01005272AD = {
 			isa = PBXGroup;
 			children = (
 				3D25302B1B0DED01005272AD /* ObjC-KIF-Realm */,
 				3D2530481B0DED02005272AD /* ObjC-KIF-RealmTests */,
 				3D25302A1B0DED01005272AD /* Products */,
+				123663E5D3DAEAAD78A9EAAE /* Pods */,
+				09C259BD1CDA8FDDAECD9C26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D25304F1B0DED02005272AD /* Build configuration list for PBXNativeTarget "ObjC-KIF-Realm" */;
 			buildPhases = (
+				23528C371A5B918D705A6634 /* Check Pods Manifest.lock */,
 				3D2530251B0DED01005272AD /* Sources */,
 				3D2530261B0DED01005272AD /* Frameworks */,
 				3D2530271B0DED01005272AD /* Resources */,
+				7B67951E28F0E637BC2FC3B1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D2530521B0DED02005272AD /* Build configuration list for PBXNativeTarget "ObjC-KIF-RealmTests" */;
 			buildPhases = (
+				B21178E17A9913DE60618E58 /* Check Pods Manifest.lock */,
 				3D2530411B0DED02005272AD /* Sources */,
 				3D2530421B0DED02005272AD /* Frameworks */,
 				3D2530431B0DED02005272AD /* Resources */,
+				EB217AE9E04B524A67B43D7F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +254,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23528C371A5B918D705A6634 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B67951E28F0E637BC2FC3B1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21178E17A9913DE60618E58 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB217AE9E04B524A67B43D7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjC-KIF-RealmTests/Pods-ObjC-KIF-RealmTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D2530251B0DED01005272AD /* Sources */ = {
@@ -351,6 +450,7 @@
 		};
 		3D2530501B0DED02005272AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0359131ECE63CBB1E90E606A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ObjC-KIF-Realm/Info.plist";
@@ -361,6 +461,7 @@
 		};
 		3D2530511B0DED02005272AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B586810B87D6CE9619989A5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ObjC-KIF-Realm/Info.plist";
@@ -371,6 +472,7 @@
 		};
 		3D2530531B0DED02005272AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083603533225CF3857D876A8 /* Pods-ObjC-KIF-RealmTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -390,6 +492,7 @@
 		};
 		3D2530541B0DED02005272AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D09FFBD98B7B9796AD80D9 /* Pods-ObjC-KIF-RealmTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -422,6 +525,7 @@
 				3D2530511B0DED02005272AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D2530521B0DED02005272AD /* Build configuration list for PBXNativeTarget "ObjC-KIF-RealmTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +534,7 @@
 				3D2530541B0DED02005272AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
