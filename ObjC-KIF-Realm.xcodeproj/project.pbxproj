@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D25302F1B0DED01005272AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D25302E1B0DED01005272AD /* main.m */; };
+		3D2530321B0DED01005272AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2530311B0DED01005272AD /* AppDelegate.m */; };
+		3D2530351B0DED01005272AD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2530341B0DED01005272AD /* FirstViewController.m */; };
+		3D2530381B0DED01005272AD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2530371B0DED01005272AD /* SecondViewController.m */; };
+		3D25303B1B0DED01005272AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2530391B0DED01005272AD /* Main.storyboard */; };
+		3D25303D1B0DED01005272AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D25303C1B0DED01005272AD /* Images.xcassets */; };
+		3D2530401B0DED01005272AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D25303E1B0DED01005272AD /* LaunchScreen.xib */; };
+		3D25304C1B0DED02005272AD /* ObjC_KIF_RealmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D25304B1B0DED02005272AD /* ObjC_KIF_RealmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D2530461B0DED02005272AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D2530211B0DED01005272AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D2530281B0DED01005272AD;
+			remoteInfo = "ObjC-KIF-Realm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D2530291B0DED01005272AD /* ObjC-KIF-Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC-KIF-Realm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D25302D1B0DED01005272AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D25302E1B0DED01005272AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D2530301B0DED01005272AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D2530311B0DED01005272AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D2530331B0DED01005272AD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3D2530341B0DED01005272AD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3D2530361B0DED01005272AD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3D2530371B0DED01005272AD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3D25303A1B0DED01005272AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D25303C1B0DED01005272AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D25303F1B0DED01005272AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D2530451B0DED02005272AD /* ObjC-KIF-RealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjC-KIF-RealmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D25304A1B0DED02005272AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D25304B1B0DED02005272AD /* ObjC_KIF_RealmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjC_KIF_RealmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D2530261B0DED01005272AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2530421B0DED02005272AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D2530201B0DED01005272AD = {
+			isa = PBXGroup;
+			children = (
+				3D25302B1B0DED01005272AD /* ObjC-KIF-Realm */,
+				3D2530481B0DED02005272AD /* ObjC-KIF-RealmTests */,
+				3D25302A1B0DED01005272AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D25302A1B0DED01005272AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D2530291B0DED01005272AD /* ObjC-KIF-Realm.app */,
+				3D2530451B0DED02005272AD /* ObjC-KIF-RealmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D25302B1B0DED01005272AD /* ObjC-KIF-Realm */ = {
+			isa = PBXGroup;
+			children = (
+				3D2530301B0DED01005272AD /* AppDelegate.h */,
+				3D2530311B0DED01005272AD /* AppDelegate.m */,
+				3D2530331B0DED01005272AD /* FirstViewController.h */,
+				3D2530341B0DED01005272AD /* FirstViewController.m */,
+				3D2530361B0DED01005272AD /* SecondViewController.h */,
+				3D2530371B0DED01005272AD /* SecondViewController.m */,
+				3D2530391B0DED01005272AD /* Main.storyboard */,
+				3D25303C1B0DED01005272AD /* Images.xcassets */,
+				3D25303E1B0DED01005272AD /* LaunchScreen.xib */,
+				3D25302C1B0DED01005272AD /* Supporting Files */,
+			);
+			path = "ObjC-KIF-Realm";
+			sourceTree = "<group>";
+		};
+		3D25302C1B0DED01005272AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D25302D1B0DED01005272AD /* Info.plist */,
+				3D25302E1B0DED01005272AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D2530481B0DED02005272AD /* ObjC-KIF-RealmTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D25304B1B0DED02005272AD /* ObjC_KIF_RealmTests.m */,
+				3D2530491B0DED02005272AD /* Supporting Files */,
+			);
+			path = "ObjC-KIF-RealmTests";
+			sourceTree = "<group>";
+		};
+		3D2530491B0DED02005272AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D25304A1B0DED02005272AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D2530281B0DED01005272AD /* ObjC-KIF-Realm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D25304F1B0DED02005272AD /* Build configuration list for PBXNativeTarget "ObjC-KIF-Realm" */;
+			buildPhases = (
+				3D2530251B0DED01005272AD /* Sources */,
+				3D2530261B0DED01005272AD /* Frameworks */,
+				3D2530271B0DED01005272AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjC-KIF-Realm";
+			productName = "ObjC-KIF-Realm";
+			productReference = 3D2530291B0DED01005272AD /* ObjC-KIF-Realm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D2530441B0DED02005272AD /* ObjC-KIF-RealmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2530521B0DED02005272AD /* Build configuration list for PBXNativeTarget "ObjC-KIF-RealmTests" */;
+			buildPhases = (
+				3D2530411B0DED02005272AD /* Sources */,
+				3D2530421B0DED02005272AD /* Frameworks */,
+				3D2530431B0DED02005272AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D2530471B0DED02005272AD /* PBXTargetDependency */,
+			);
+			name = "ObjC-KIF-RealmTests";
+			productName = "ObjC-KIF-RealmTests";
+			productReference = 3D2530451B0DED02005272AD /* ObjC-KIF-RealmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D2530211B0DED01005272AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "STAY REAL";
+				TargetAttributes = {
+					3D2530281B0DED01005272AD = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3D2530441B0DED02005272AD = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3D2530281B0DED01005272AD;
+					};
+				};
+			};
+			buildConfigurationList = 3D2530241B0DED01005272AD /* Build configuration list for PBXProject "ObjC-KIF-Realm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D2530201B0DED01005272AD;
+			productRefGroup = 3D25302A1B0DED01005272AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D2530281B0DED01005272AD /* ObjC-KIF-Realm */,
+				3D2530441B0DED02005272AD /* ObjC-KIF-RealmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D2530271B0DED01005272AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D25303B1B0DED01005272AD /* Main.storyboard in Resources */,
+				3D2530401B0DED01005272AD /* LaunchScreen.xib in Resources */,
+				3D25303D1B0DED01005272AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2530431B0DED02005272AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D2530251B0DED01005272AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2530381B0DED01005272AD /* SecondViewController.m in Sources */,
+				3D2530321B0DED01005272AD /* AppDelegate.m in Sources */,
+				3D2530351B0DED01005272AD /* FirstViewController.m in Sources */,
+				3D25302F1B0DED01005272AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2530411B0DED02005272AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D25304C1B0DED02005272AD /* ObjC_KIF_RealmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D2530471B0DED02005272AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D2530281B0DED01005272AD /* ObjC-KIF-Realm */;
+			targetProxy = 3D2530461B0DED02005272AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D2530391B0DED01005272AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D25303A1B0DED01005272AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D25303E1B0DED01005272AD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D25303F1B0DED01005272AD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D25304D1B0DED02005272AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D25304E1B0DED02005272AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D2530501B0DED02005272AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjC-KIF-Realm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D2530511B0DED02005272AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjC-KIF-Realm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D2530531B0DED02005272AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjC-KIF-RealmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjC-KIF-Realm.app/ObjC-KIF-Realm";
+			};
+			name = Debug;
+		};
+		3D2530541B0DED02005272AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjC-KIF-RealmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjC-KIF-Realm.app/ObjC-KIF-Realm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D2530241B0DED01005272AD /* Build configuration list for PBXProject "ObjC-KIF-Realm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D25304D1B0DED02005272AD /* Debug */,
+				3D25304E1B0DED02005272AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D25304F1B0DED02005272AD /* Build configuration list for PBXNativeTarget "ObjC-KIF-Realm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2530501B0DED02005272AD /* Debug */,
+				3D2530511B0DED02005272AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D2530521B0DED02005272AD /* Build configuration list for PBXNativeTarget "ObjC-KIF-RealmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2530531B0DED02005272AD /* Debug */,
+				3D2530541B0DED02005272AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D2530211B0DED01005272AD /* Project object */;
+}
