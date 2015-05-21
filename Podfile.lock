@@ -23,13 +23,18 @@ PODS:
   - KIF (3.2.2):
     - KIF/XCTest (= 3.2.2)
   - KIF/XCTest (3.2.2)
+  - Realm (0.92.3):
+    - Realm/Headers (= 0.92.3)
+  - Realm/Headers (0.92.3)
 
 DEPENDENCIES:
   - AFNetworking
   - KIF (~> 3.2.0)
+  - Realm (~> 0.92.3)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   KIF: b0bd762b0c7890b04920cf618021d6d4fd5127bd
+  Realm: bf604805d5e897850da488260f93889f510924b3
 
 COCOAPODS: 0.37.1
